@@ -5,6 +5,10 @@ class Queue
     @items = []
   end
 
+  def size
+    items.size
+  end
+
   def front
     items.first
   end
@@ -22,6 +26,6 @@ class Queue
   end
 
   def dequeue
-    items.delete_at(0)
+    items.shift
   end
 end
