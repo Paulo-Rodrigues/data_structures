@@ -1,5 +1,5 @@
 class Stack
-  attr_acccessor :items
+  attr_accessor :items
 
   def initialize
     @items = []
